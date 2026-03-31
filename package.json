@@ -1,0 +1,22 @@
+{
+  "name": "chain",
+  "version": "1.0.0",
+  "description": "First project with langchain",
+  "type": "module",
+  "main": "chain.js",
+  "scripts": {
+    "start": "node chain.js",
+    "test": "echo \"No tests yet\""
+  },
+  "author": "Himanshu Maheshwari",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^1.1.36",
+    "@langchain/google-genai": "^2.1.26",
+    "@langchain/openai": "^1.3.1",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
